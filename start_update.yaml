@@ -54,24 +54,4 @@
           - name: content
             debug:
               msg: "out.status"
-          - name: Send notofication to Slack
-            slack:
-              token: TFBPBNB2L/B0123VAJ678/gS90HwQ2KIlo8wT3xW2B16Ix
-              msg: "Wordpress works"
-              channel: "#github_notifi"
-              username: "webhook"
-              parse: "full"
-
-
-
-        rescue:
-          - name: Send notofication to Slack
-            slack:
-              token: TFBPBNB2L/B0123VAJ678/gS90HwQ2KIlo8wT3xW2B16Ix
-              msg: "Wordpress does not work"
-              channel: "#github_notifi"
-              username: "webhook"
-              parse: "full"
-#            - name: Import rollback playbook tasks
-#              include_tasks: rollback.yaml
-#              tags: never 
+         

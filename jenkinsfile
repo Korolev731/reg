@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/yaskazeko/wordpress.git'
+        git 'https://github.com/Korolev731/reg.git'
       }
     }
     stage('check files'){
