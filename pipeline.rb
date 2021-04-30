@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone repository') { 
             steps { 
-                    git url:'git@github.com:Korolev731/reg.git'
+                    git url:'https://github.com/Korolev731/reg.git'
 					
 					}
         }
