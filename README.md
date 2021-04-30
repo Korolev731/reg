@@ -1,23 +1,27 @@
-# Wordpress project with Docker compose
+## Project report
+**Project's reporter:** Mataras Mikhail
 
-## Project's reporter: Stanislav Kudin
+**Group number:** m-sa2-11-19
 
-## Group number: m-sa2-11-19
+### Description of application for deployment
+- Name: Processwire
+- Application is written in PHP
+- Used database: MySQL
+- [Link to GitHUB repository](https://github.com/processwire/processwire.git)
+### Pipeline. High Level Design
+![alt text](https://i.imgur.com/oYhomFV.jpg)
+### Technologies which were used in project
 
-## Description of application for deployment
+**Orchestration:** Jenkins
 
-* Wordpress
-* php language
-* MySQL
-* [Project's repository](https://github.com/Wikingst13/Project_WP.git)
+**Automation tools:** Ansible
 
-## Pipeline HLD
-*Scheme*
+**CI description:** by schedule
 
-![alt text](https://github.com/Wikingst13/Project_WP/blob/master/Wordpress.jpg)
+**Notification:** Slack
 
-## Technologies which were used in project
-** Orchestration: Jenkins, docker compose.
+**Deployment flows short description:**
 
+### Links
 
-
+[The link to my repository](https://github.com/mataras/project.git)
